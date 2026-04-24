@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DDTech - Tu tienda de tecnología y componentes de PC en Guadalajara. Procesadores, tarjetas de video, memorias RAM y más.">
+    <title>DDTech — Tecnología y Componentes de PC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/ddtech-logo.png" alt="DDTech" class="nav-logo-img"> DDTech
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#sucursales">Sucursales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero-banner.png" alt="Componentes de PC gaming" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-badge">🔥 La mejor tecnología de Guadalajara</span>
+            <h1>Tu PC Gaming<br><span class="gradient-text">al siguiente nivel</span></h1>
+            <p class="hero-subtitle">Componentes de alto rendimiento, PCs armadas y asesoría personalizada. Más de 15 años equipando gamers y profesionales.</p>
+            <div class="hero-buttons">
+                <a href="#productos" class="btn btn-primary">Ver Productos</a>
+                <a href="#contacto" class="btn btn-outline">Cotizar PC</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-number">3</span><span class="stat-label">Sucursales</span></div>
+                <div class="stat"><span class="stat-number">15+</span><span class="stat-label">Años</span></div>
+                <div class="stat"><span class="stat-number">10K+</span><span class="stat-label">Clientes</span></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section id="productos" class="section products-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Catálogo</span>
+                <h2>Productos <span class="gradient-text">Destacados</span></h2>
+                <p>Los mejores componentes de las marcas líderes del mercado</p>
+            </div>
+            <div class="product-grid" id="product-grid">
+                <!-- Products injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="section services-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Servicios</span>
+                <h2>¿Qué <span class="gradient-text">ofrecemos</span>?</h2>
+                <p>Soluciones completas para tus necesidades tecnológicas</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🖥️</div>
+                    <h3>Configurador de PC</h3>
+                    <p>Arma tu PC a la medida con nuestra herramienta de compatibilidad de componentes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚚</div>
+                    <h3>Envíos Nacionales</h3>
+                    <p>Envíos a toda la República Mexicana con empaque seguro y rastreo incluido.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Garantía Directa</h3>
+                    <p>Soporte técnico y garantía directa en todos nuestros productos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎮</div>
+                    <h3>PCs Gaming</h3>
+                    <p>Equipos Pride Gaming ensamblados y optimizados para el máximo rendimiento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branches Section -->
+    <section id="sucursales" class="section branches-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Ubicaciones</span>
+                <h2>Nuestras <span class="gradient-text">Sucursales</span></h2>
+                <p>Visítanos en cualquiera de nuestras 3 sucursales en la ZMG</p>
+            </div>
+            <div class="branches-grid">
+                <div class="branch-card">
+                    <div class="branch-icon">📍</div>
+                    <h3>Sucursal Centro</h3>
+                    <p class="branch-address">Calle Santa Mónica #286, Zona Centro, C.P. 44100, Guadalajara, Jal.</p>
+                    <p class="branch-hours">Lun-Vie: 10:00 - 19:00 | Sáb: 10:00 - 17:00</p>
+                    <p class="branch-phone">📞 33 3335 4954</p>
+                </div>
+                <div class="branch-card">
+                    <div class="branch-icon">📍</div>
+                    <h3>Jardines del Bosque</h3>
+                    <p class="branch-address">Av. Niños Héroes #2749, Col. Jardines del Bosque, C.P. 44520, Guadalajara, Jal.</p>
+                    <p class="branch-hours">Lun-Vie: 10:00 - 19:00 | Sáb: 10:00 - 17:00</p>
+                    <p class="branch-phone">📞 33 3545 1224</p>
+                </div>
+                <div class="branch-card">
+                    <div class="branch-icon">📍</div>
+                    <h3>La Gran Plaza</h3>
+                    <p class="branch-address">Av. Ignacio L. Vallarta #3959, Local J3, Zapopan, Jal.</p>
+                    <p class="branch-hours">Lun-Dom: 11:00 - 21:00</p>
+                    <p class="branch-phone">📞 33 3857 6430</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contacto" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contacto</span>
+                <h2>Cotiza tu <span class="gradient-text">PC ideal</span></h2>
+                <p>Envíanos tus requerimientos y te asesoramos sin compromiso</p>
+            </div>
+            <div class="contact-wrapper">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo *</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="33 1234 5678">
+                        </div>
+                        <div class="form-group">
+                            <label for="presupuesto">Presupuesto aproximado</label>
+                            <select id="presupuesto" name="presupuesto">
+                                <option value="">Selecciona un rango</option>
+                                <option value="5000-10000">$5,000 - $10,000</option>
+                                <option value="10000-20000">$10,000 - $20,000</option>
+                                <option value="20000-35000">$20,000 - $35,000</option>
+                                <option value="35000+">$35,000+</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">¿Qué necesitas? *</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Describe los componentes o el tipo de PC que buscas..."></textarea>
+                    </div>
+                    <button type="submit" id="submit-btn" class="btn btn-primary btn-full">Enviar Cotización</button>
+                </form>
+                <div id="form-success" class="form-success hidden">
+                    <div class="success-icon">✅</div>
+                    <h3>¡Mensaje enviado!</h3>
+                    <p>Nos pondremos en contacto contigo pronto. También puedes escribirnos a <strong>ventas@ddtech.mx</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <span class="footer-logo"><img src="images/ddtech-logo.png" alt="DDTech" class="footer-logo-img"> DDTech</span>
+                    <p>Tu tienda de tecnología y componentes de PC en Guadalajara desde hace más de 15 años.</p>
+                    <p>ventas@ddtech.mx | soporte@ddtech.mx</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces</h4>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#productos">Productos</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-academic">
+                <div class="academic-info">
+                    <img src="images/cucei-logo.png" alt="Logo CUCEI" class="cucei-logo">
+                    <div class="academic-text">
+                        <p><strong>Universidad de Guadalajara — CUCEI</strong></p>
+                        <p>Erick Zaid Medina Torres — 323002132</p>
+                        <p>Desarrollo de Aplicaciones Web en la Nube y Móviles</p>
+                        <p>Profesor: Zeus Emanuel Gutiérrez Cobian</p>
+                        <p>Calendario 2026A</p>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-copy">&copy; 2026 DDTech — Sitio web creado con fines académicos.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
